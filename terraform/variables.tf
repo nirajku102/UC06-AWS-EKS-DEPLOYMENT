@@ -40,3 +40,8 @@ variable "node_min_size" {
   type        = number
   default     = 1
 }
+
+variable "image_uri" {
+  description = "The URI of the Docker image for the Lambda function"
+  type        = string
+}
