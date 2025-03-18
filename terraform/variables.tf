@@ -44,6 +44,24 @@ variable "instance_type" {
   default     = "t3.medium"
 }
 
+variable "node_desired_size" {
+  description = "The desired number of worker nodes"
+  type        = number
+  default     = 2
+}
+
+variable "node_max_size" {
+  description = "The maximum number of worker nodes"
+  type        = number
+  default     = 3
+}
+
+variable "node_min_size" {
+  description = "The minimum number of worker nodes"
+  type        = number
+  default     = 1
+}
+
 variable "desired_capacity" {
   description = "The desired number of worker nodes"
   type        = number
