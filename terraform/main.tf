@@ -27,4 +27,7 @@ module "eks_cluster" {
   max_size         = var.max_size
   min_size         = var.min_size
   subnets          = var.subnets
+  node_desired_size = var.node_desired_size
+  node_max_size     = var.node_max_size
+  node_min_size     = var.node_min_size
 }
