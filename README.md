@@ -5,3 +5,5 @@ TO BE CONTINUED.......
 VPC
 EKS
 ECR
+IGW
+
