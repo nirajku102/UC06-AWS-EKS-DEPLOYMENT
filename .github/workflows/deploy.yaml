@@ -6,7 +6,6 @@ on:
 env:
   AWS_REGION: eu-west-2
   ECR_REPO_APP: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.eu-west-2.amazonaws.com/user-lambda
-  AWS_REGION: eu-west-2
   ECR_REPO_SERVICE1: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.eu-west-2.amazonaws.com/service1
   ECR_REPO_SERVICE2: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.eu-west-2.amazonaws.com/service2
 
