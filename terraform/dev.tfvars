@@ -11,3 +11,5 @@ instance_type = "t3.medium"
 desired_capacity = 2
 max_size = 3
 min_size = 1
+
+subnets = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24", "10.0.4.0/24"]

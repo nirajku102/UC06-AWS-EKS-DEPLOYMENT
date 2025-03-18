@@ -26,4 +26,5 @@ module "eks_cluster" {
   desired_capacity = var.desired_capacity
   max_size         = var.max_size
   min_size         = var.min_size
+  subnets          = var.subnets
 }
