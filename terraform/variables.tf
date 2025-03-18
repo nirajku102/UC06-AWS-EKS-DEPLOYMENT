@@ -8,6 +8,11 @@ variable "vpc_cidr_block" {
   type        = string
 }
 
+variable "subnets" {
+  description = "A list of subnet IDs where the EKS cluster will be deployed"
+  type        = list(string)
+}
+
 variable "public_subnets" {
   description = "The public subnets for the VPC"
   type        = list(string)
