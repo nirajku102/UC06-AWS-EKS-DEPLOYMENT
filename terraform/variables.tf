@@ -18,11 +18,6 @@ variable "availability_zones" {
   type        = list(string)
 }
 
-variable "image_uri" {
-  description = "The URI of the Docker image for the Lambda function"
-  type        = string
-}
-
 variable "cluster_name" {
   description = "The name of the EKS cluster"
   type        = string
