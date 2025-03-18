@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - test-branch
+      - main
 
 env:
   AWS_REGION: eu-west-2
