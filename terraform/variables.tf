@@ -56,3 +56,13 @@ variable "min_size" {
   type        = number
   default     = 1
 }
+
+variable "service1_image" {
+  description = "The Docker image for service1"
+  type        = string
+}
+
+variable "service2_image" {
+  description = "The Docker image for service2"
+  type        = string
+}
